@@ -6,7 +6,7 @@ alert(x > y ? 'x больше, чем y' : 'x не больше, чем y');
 const num = +prompt('Введите число:');
 if (num % 2 === 0) {
     alert(`Число ${num} четное`);
-} else if (num % 2 !== 0) {
+} else {
     alert(`Число ${num} нечетное`);
 }
 //3
